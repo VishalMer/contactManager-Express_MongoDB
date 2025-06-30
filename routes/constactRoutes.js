@@ -20,4 +20,5 @@ router.route("/:id").put((req, res) => {
 router.route("/").delete((req, res) => {
     res.status(200).json({message:`Delete contact for ${req.params.id}`});
 });
+
 module.exports =router;
