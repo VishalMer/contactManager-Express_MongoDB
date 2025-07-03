@@ -20,7 +20,10 @@
   "homepage": "https://github.com/VishalMer/contactManager-Express_MongoDB#readme",
   "dependencies": {
     "dotenv": "^17.0.0",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "express-async-handler": "^1.2.0",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.16.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
