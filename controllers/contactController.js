@@ -24,6 +24,7 @@ const CreateContact = asyncHandler (async (req, res) => {
         email,
         phone,
     });
+
     res.status(201).json(contact);
 });
 
@@ -67,7 +68,7 @@ const updateContact = asyncHandler (async (req, res) => {
         throw new Error("Contact not found");
     }
     await Contact.remove();
-    res.status(200).json(this.deleteContact);
+    res.status(200).json(contact);
 });
 
 module.exports = {getContacts, CreateContact, getContact, updateContact, deleteContact};
