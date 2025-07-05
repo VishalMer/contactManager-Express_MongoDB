@@ -71,4 +71,10 @@ const updateContact = asyncHandler (async (req, res) => {
     res.status(200).json(contact);
 });
 
-module.exports = {getContacts, CreateContact, getContact, updateContact, deleteContact};
+module.exports = {
+    getContacts,
+    CreateContact,
+    getContact,
+    updateContact,
+    deleteContact
+    };
